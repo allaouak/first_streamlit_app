@@ -39,7 +39,5 @@ st.dataframe(my_data_rows)
 
 s_fruit_choice = st.text_input('What fruit would you like to add?','Kiwi')
 st.write('Thank you for adding ', s_fruit_choice)
-#st.dataframe(s_fruit_choice)
 
-#add_my_fruit = st.text_input('What fruit would you like to add?','Jackfruit') 
-#st.write('The user entered ', add_my_fruit)
+my_cur.execute("insert into fruit_load_list values ('rom streamlit')")
