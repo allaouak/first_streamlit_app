@@ -39,3 +39,4 @@ st.dataframe(my_data_rows)
 
 s_fruit_choice = st.text_input('What fruit would you like information about?','Kiwi')
 st.write('Thank you for adding ', s_fruit_choice)
+st.dataframe(s_fruit_choice)
