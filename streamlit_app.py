@@ -55,4 +55,4 @@ if st.button('Get Fruit Load List'):
 s_fruit_choice = st.text_input('What fruit would you like to add?','Kiwi')
 st.write('Thank you for adding ', s_fruit_choice)
 
-my_cur.execute("insert into fruit_load_list values ('rom streamlit')")
+#my_cur.execute("insert into fruit_load_list values ('rom streamlit')")
